@@ -17,8 +17,6 @@ int main() {
     Car c2;
     c2.brand = "Honda";
     c2.year = 2018;
-
-    // Using object methods
     c1.start();
     c2.start();
 
