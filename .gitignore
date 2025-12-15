@@ -1,2 +1,3 @@
 *.exe
 *.obj
+//git ignore file to push only .cpp files and ignore .exe & obj files
