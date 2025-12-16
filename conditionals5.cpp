@@ -9,10 +9,10 @@ int main() {
     cout << "Enter third number : ";
     cin >> c;
     if (a > b & c)
-    cout << "First number is greatest";
+    cout << a << " is greatest";
     else if (b > c & a)
-    cout << "Second number is greatest";
+    cout << b << " is greatest";
     else 
-    cout << "Third number is greatest";
+    cout << c << " is greatest";
     return 0;
 } 
