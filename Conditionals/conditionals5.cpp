@@ -8,11 +8,14 @@ int main() {
     cin >> b;
     cout << "Enter third number : ";
     cin >> c;
-    if (a > b & c)
+    if (a > b && a > c) {
     cout << a << " is greatest";
-    else if (b > c & a)
+    }
+    else if (b > c && b > a) {
     cout << b << " is greatest";
-    else 
+    }
+    else { 
     cout << c << " is greatest";
+    }
     return 0;
 } 
