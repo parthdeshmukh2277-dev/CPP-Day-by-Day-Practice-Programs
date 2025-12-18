@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main() 
+int main() {
     int x,y,sum;
     cout<<"Enter First Number\n";
     cin>>x;
