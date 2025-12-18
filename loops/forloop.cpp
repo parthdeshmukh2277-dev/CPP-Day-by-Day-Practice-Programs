@@ -4,6 +4,7 @@ int main () {
     int n;
     cout << "Enter n =";
     cin >> n;
+    //for loop
     for( int i=1; i <= n; i++) {
     cout << "hello world" << endl;
     }
