@@ -7,7 +7,7 @@ int main () {
     cin >> op;
     float b;
     cin >> b;
-    if (op == '+' )
+    if (op == '+' ) 
     cout << a + b;
     if (op == '-' )
     cout << a - b;
