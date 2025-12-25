@@ -16,6 +16,7 @@ cin >> n;
 cout << "Enter r : ";
 cin >> r;
 int a = fact(n); //this is for n!
-int b = fact(n-r); //this is for (n-r)!
-cout << a/b;
+int b = fact(r); //this is for r!
+int c = fact(n-r); //this is for (n-r)!
+cout << a/(b*c);
 }
