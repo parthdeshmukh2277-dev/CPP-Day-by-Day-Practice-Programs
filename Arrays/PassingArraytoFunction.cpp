@@ -10,7 +10,7 @@ for (int i =0; i<=4; i++){
     cout << arr[i] << " ";
 }
 cout << "\n";
-change (arr);
+change (arr); //this is pass by reference
 for (int i =0; i<=4; i++){
     cout << arr[i] << " ";
 }
