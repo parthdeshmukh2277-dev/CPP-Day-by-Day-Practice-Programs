@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 int main() {
-    string str = "Parth Deshmukh";
+    string str;
+    cout << "Enter a string : ";
+    cin >> str;
     cout << str;
 }
