@@ -4,8 +4,8 @@ class Car {
     public:
     string name;
     string type;
-    float seat;
-    int price;
+    int seat;
+    float price;
 };
 void print(Car c){ 
     cout << "Car Name : " << c.name << "\n";
