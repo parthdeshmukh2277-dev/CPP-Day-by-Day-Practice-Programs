@@ -20,9 +20,9 @@ void print(){ //here we created a function inside the class
 }
 };
 int main () {
-    Cricketer c1("Virat Kohli", 14673,4.5);
-    Cricketer c2("Rohit Sharma", 11566,4.1);
-    Cricketer c3("M S Dhoni", 10733,4.2);
+    Cricketer c1("Virat Kohli", 14673, 58.46);
+    Cricketer c2("Rohit Sharma", 11566,49.01);
+    Cricketer c3("M S Dhoni", 10733,50.58);
     c1.print();
     c2.print();
     c3.print();
